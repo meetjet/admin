@@ -101,6 +101,14 @@ class LoginController extends Controller
     /**
      * @return \Illuminate\View\View
      */
+    public function showRegisterForm()
+    {
+        return $this->viewFactory->make('twill::auth.register');
+    }
+
+    /**
+     * @return \Illuminate\View\View
+     */
     public function showLogin2FaForm()
     {
         return $this->viewFactory->make('twill::auth.2fa');

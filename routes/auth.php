@@ -3,6 +3,11 @@
 use Illuminate\Support\Facades\Route;
 
 if (config('twill.enabled.users-management')) {
+
+    if (config('twill.enabled.users-registration')) {
+        Route::get('register', 'LoginController@showRegisterForm')->name('register.form');
+    }
+
     Route::get('login', 'LoginController@showLoginForm')->name('login.form');
     Route::post('login', 'LoginController@login')->name('login');
     Route::post('logout', 'LoginController@logout')->name('logout');
