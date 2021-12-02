@@ -19,6 +19,8 @@ return [
         'forgot-password' => 'Forgot password',
         'login' => 'Login',
         'login-title' => 'Login',
+        'register' => 'Register',
+        'register-title' => 'Register',
         'oauth-link-title' => 'Re-enter your password to link :provider to your account',
         'otp' => 'One-time password',
         'password' => 'Password',

@@ -19,6 +19,8 @@ return [
         'forgot-password' => 'Восстановить пароль',
         'login' => 'Войти',
         'login-title' => 'Войти',
+        'register' => 'Регистрация',
+        'register-title' => 'Регистрация',
         'password' => 'Пароль',
         'password-confirmation' => 'Повторите пароль',
         'reset-send' => 'Отправить ссылку на восстановление пароля',
