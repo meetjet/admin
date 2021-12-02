@@ -1,29 +1,26 @@
 {
-  "name": "area17/twill",
+  "name": "meetjet/admin",
   "type": "library",
-  "license": "Apache-2.0",
-  "description": "Twill is an open source CMS toolkit for Laravel that helps developers rapidly create a custom admin console that is intuitive, powerful and flexible.",
+  "license": "MIT",
+  "description": "Admin package for MeetJet SAAS project.",
   "keywords": [
-    "A17",
-    "twill",
     "laravel",
     "cms"
   ],
-  "homepage": "https://twill.io",
+  "homepage": "https://meetjet.io",
   "authors": [
     {
-      "name": "AREA 17",
-      "email": "hello@twill.io",
-      "homepage": "https://area17.com"
+      "name": "Zorca Orcinus",
+      "email": "vs@zorca.org",
+      "homepage": "https://zorca.dev"
     }
   ],
   "support": {
-    "issues": "https://github.com/ifox/twill/issues/",
-    "docs": "https://twill.io/docs",
-    "chat": "https://discord.link/twill"
+    "issues": "https://github.com/meetjet/admin/issues/",
+    "docs": "https://meetjet.io/docs"
   },
   "require": {
-    "php": "^7.1|^8.0",
+    "php": "^8.0",
     "ext-json": "*",
     "ext-pdo": "*",
     "astrotomic/laravel-translatable": "^11.5",
@@ -31,7 +28,7 @@
     "doctrine/dbal": "^2.12|^3.0",
     "guzzlehttp/guzzle": "^6.2|^7.0",
     "imgix/imgix-php": "^3.0",
-    "laravel/framework": "~5.6|~5.7|~5.8|^6.0|^7.0|^8.0",
+    "laravel/framework": "^8.0",
     "laravel/socialite": "^4.2|^5.0",
     "laravel/ui": "^1.0|^2.0|^3.0",
     "league/flysystem-aws-s3-v3": "^1.0",
