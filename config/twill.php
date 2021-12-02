@@ -179,7 +179,7 @@ return [
     'dev_mode_url' => env('TWILL_DEV_MODE_URL', 'http://localhost:8080'),
     'public_directory' => env('TWILL_ASSETS_DIR', 'assets/admin'),
     'manifest_file' => 'twill-manifest.json',
-    'vendor_path' => 'vendor/area17/twill',
+    'vendor_path' => 'vendor/meetjet/admin',
     'custom_components_resource_path' => 'assets/js/components',
     'build_timeout' => 300,
     'internal_icons' => [
